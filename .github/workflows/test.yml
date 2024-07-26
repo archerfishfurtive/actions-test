@@ -43,8 +43,6 @@ jobs:
                 "issue_comment",
                 "check_suite",
                 "check_run"
-              ],
-              "owner": "${{ env.OWNER }}",
-              "repo": "${{ env.REPO }}"
+              ]
             }' \
-            https://api.github.com/app-manifests/${{ env.OWNER }}/${{ env.REPO }}
+            https://api.github.com/app-manifests/archerfishfurtive/actions-test
